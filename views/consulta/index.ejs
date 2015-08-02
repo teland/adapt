@@ -1,0 +1,6 @@
+<table>
+<% var i; for (i=0; i<consulta.length; i++) { %>
+<tr><td><a href="/consulta/<%= consulta[i].id %>"> <%= consulta[i].param %></a></td></tr>
+<% }%>
+</table>
+<a href="/consulta/new"><button type="button">Crear consulta</button></a>
